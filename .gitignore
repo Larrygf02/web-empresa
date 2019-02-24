@@ -3,5 +3,6 @@
 *.pyc
 
 __pycache__/
+webempresa/__pycache__/settings.cpython-37.pyc
 *.py[cod]
 *$py.class
