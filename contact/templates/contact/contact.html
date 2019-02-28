@@ -48,6 +48,9 @@
             {% if 'ok' in request.GET %}
             <p><b>Su mensaje se ha enviado correctamente, en breve nos ponemos en contacto con usted</b></p>
             {% endif%}
+            {% if 'fail' in request.GET %}
+            <p><b>Ha ocurrido un problema en el momento de enviar el mensaje</b></p>
+            {% endif %}
             <!--
             <form action="" method="POST">
               {% csrf_token %}
